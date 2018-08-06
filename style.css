@@ -1,0 +1,114 @@
+#calculator{
+    display:flex; 
+    width: 350px;
+    height: 350px;
+    flex-direction: column;
+    background-color:black;
+    border-radius: 5px;
+    
+}
+
+#operations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#screen{
+    height: 60px;
+    background-color: darkgray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+body {
+    height: 1000px;
+}
+
+#row1 > button {
+    width: 75px; 
+    height: 55px;
+}
+
+#row2 > button {
+    width: 75px; 
+    height: 55px;
+}
+
+#row3 > button {
+    width: 75px; 
+    height: 55px;
+}
+
+#row4 > button {
+    width: 75px; 
+    height: 55px;
+}
+
+#row5{
+    height: 55px;
+}
+
+#zero{
+    width: 154px;
+    height: 55px;
+}
+
+#decimalPoint{
+    width: 75px;
+    height: 55px;
+}
+
+#equals{
+    width: 75px;
+    background-color: orange;
+    /* border-style: solid; */
+    /* border-radius: 5px; */
+    outline: none;
+    border-color: orange;
+    height: 55px;
+}
+
+#addition{
+    width: 75px;
+    background-color: orange;
+    /* border-style: solid; */
+    /* border-radius: 5px; */
+    outline: none;
+    border-color: orange;
+    height: 55px;
+}
+
+#subtraction{
+    width: 75px;
+    background-color: orange;
+    /* border-style: solid; */
+    /* border-radius: 5px; */
+    outline: none;
+    border-color: orange;
+    height: 55px;
+}
+
+#multiplucation{
+    width: 75px;
+    background-color: orange;
+    /* border-style: solid; */
+    /* border-radius: 5px; */
+    outline: none;
+    border-color: orange;
+    height: 55px;
+}
+
+#division{
+    width: 75px;
+    background-color: orange;
+    /* border-style: solid; */
+    /* border-radius: 5px; */
+    outline: none;
+    border-color: orange;
+    height: 55px;
+}
+
+#row1 {
+    margin-top:10px;
+}
