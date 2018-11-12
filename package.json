@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Desktop Calculator Application",
+  "main": "dom.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kwaku-Boafo/calculator-.git"
+  },
+  "author": "Kwaku Boafo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kwaku-Boafo/calculator-/issues"
+  },
+  "homepage": "https://github.com/Kwaku-Boafo/calculator-#readme",
+  "dependencies": {
+    "electron": "^3.0.8"
+  }
+}
